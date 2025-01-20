@@ -1,5 +1,7 @@
 from fredapi import Fred
 from google.colab import userdata
+import pandas as pd
+
 api_key = userdata.get('fred-api')
 fred = Fred(api_key=api_key)
 series_ids = {
